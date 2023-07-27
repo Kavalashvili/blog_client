@@ -61,12 +61,27 @@ body {
     align-items: center;
 }
 
-.menu {
+.about {
     display: flex;
     justify-content: flex-end;
+    padding-right: 30px;
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 2.5rem;
+}
+
+.gallery {
+    display: flex;
+    gap: 200px;
+    margin: 100px 0;
+}
+
+.gallery-column {
+    text-align: center;
+}
+
+.blogpost img {
+    width: 200px;
 }
