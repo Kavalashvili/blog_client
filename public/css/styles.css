@@ -12,6 +12,7 @@ font-family: 'Open Sans', sans-serif;
 :root {
     --black: #000;
     --white: #FFF;
+    --gray: #B2BEB5;
 }
 
 /* general */
@@ -34,7 +35,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-size: 1rem;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* top navbar */
@@ -72,16 +73,47 @@ h1 {
     font-size: 2.5rem;
 }
 
+.gallery-title {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 16px;
+    justify-content: start;
+}
+
+.gallery-title-gray {
+    color: var(--gray);
+}
+
 .gallery {
     display: flex;
     gap: 200px;
     margin: 100px 0;
 }
 
-.gallery-column {
+.gallery-column-1, .gallery-column-2 {
     text-align: center;
+}
+
+.gallery-column-2 {
+    margin-top: 150px;
+}
+
+.blogpost {
+    margin-bottom: 80px;
 }
 
 .blogpost img {
     width: 200px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+footer > i {
+    margin-left: 10px;
+}
+
