@@ -77,10 +77,8 @@ h1 {
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    gap: 16px;
-    justify-content: start;
+    text-align: left !important;
 }
-
 .gallery-title-gray {
     color: var(--gray);
 }
